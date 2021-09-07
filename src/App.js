@@ -29,11 +29,11 @@ class BooksApp extends React.Component {
     console.log("Books",this.state.books)
     return (
       <div className="app">
-            <div className="list-books-title">
+        <div className="list-books-title">
               <h1>MyReads</h1>
             </div>
         <BookShelf />
-                    <div className="open-search">
+        <div className="open-search">
               <button onClick={() => this.setState({ showSearchPage: true })}>Add a book</button>
             </div>
       </div>
