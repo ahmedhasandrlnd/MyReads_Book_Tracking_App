@@ -32,7 +32,7 @@ class BooksApp extends React.Component {
       <div className="list-books-title">
         <h1>MyReads</h1>
       </div>
-      <BookShelf/>
+      <BookShelf books={this.state.books}/>
       <div className="open-search">
         <button onClick={() => this.setState({ showSearchPage: true })}>Add a book</button>
       </div>
